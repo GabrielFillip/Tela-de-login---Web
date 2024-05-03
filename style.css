@@ -1,0 +1,105 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter";
+}
+
+body{
+    background-image: url('/paisage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div-login{
+    width: 35vw;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-componentes{
+    width: 22vw;
+    height: 25vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.div-componentes1{
+    width: 22vw;
+    height: 25vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    /*backdrop-filter: blur(10px);
+    border: 1px solid rgb(53, 53, 53);*/
+}
+
+.componentes2{
+    margin: 0px 0px 0px 4%;
+}
+
+.inputs{
+    border: none;
+    border-radius: 30px;
+    margin: 0px 0px 5% 0%;
+    width: 20vw;
+    height: 2.9vw;
+
+}
+
+.button{
+    border: none;
+    border-radius: 30px;
+    margin: 0px 0px 0px 0%;
+    width: 20vw;
+    height: 2.9vw;
+    font-weight: bold;
+    font-family: "Inter";
+    font-size: 1vw;
+    background-color: rgb(205, 218, 255);
+    cursor: pointer;
+    transition: box-shadow 0.9s ease; 
+}
+
+.button:active {
+    transform: translateY(1px); 
+}
+
+.h2-login{
+    margin: 5% 0px 15% 35%;
+    font-size: 2vw;
+}
+
+.h2-cadastro{
+    margin: 5% 0px 15% 17%;
+    font-size: 2vw;
+}
+
+
+.flex-button{
+    display: flex;
+    margin: 0px 0px 0px 0%;
+    font-size: 0.70vw;
+    color: rgb(205, 218, 255);
+    font-weight: bold;
+}
+
+.checkbox{
+    width: 0.80vw;
+    border: none;
+}
+
+.conta{
+    margin: 5% 0px 5% 0%;
+    font-weight: bolder;
+    font-size: 1vw;
+    color: rgb(219, 219, 219);
+    text-decoration: none;
+}
+
